@@ -1,0 +1,110 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f1f1f1;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.left {
+  width: 35%;
+  background: #e0f7fa;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.left img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-bottom: 15px;
+}
+
+.left h2 {
+  margin-bottom: 5px;
+  color: #00796b;
+}
+
+.left p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.section-title {
+  margin-top: 30px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #004d40;
+  font-size: 16px;
+  border-bottom: 2px solid #004d40;
+  padding-bottom: 5px;
+}
+
+.info i {
+  margin-right: 8px;
+  color: #009688;
+}
+
+.skills, .soft-skills {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.skills ul, .soft-skills ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills li, .soft-skills li {
+  margin-bottom: 8px;
+}
+
+.right {
+  width: 65%;
+  padding: 30px;
+}
+
+.right h3 {
+  color: #00796b;
+  margin-bottom: 10px;
+}
+
+.right .section {
+  margin-bottom: 30px;
+}
+
+.right .section p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.right ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.right li {
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #00796b;
+  font-weight: bold;
+}
+
+.align-left {
+  text-align: left;
+  margin-top: 10px;
+}
